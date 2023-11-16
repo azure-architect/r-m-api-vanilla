@@ -13,7 +13,7 @@ body {
   text-align: center;
 }
 
-#root {
+#character-list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,4 +23,15 @@ body {
 card {
   border: 1px solid orangered;
   padding: 10px;
+}
+nav {
+  font-size: 80px;
+  margin: 20px auto;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+.pagination button {
+  margin-right: 5px;
 }
