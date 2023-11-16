@@ -13,7 +13,7 @@ fetch(url)
     const characterContainer = document.getElementById('root');
 
     // Loop through the retrieved characters and create HTML elements to display them
-    data.results.forEach((character) => {
+    data.results.map((character) => {
       const characterElement = document.createElement('card');
       characterElement.innerHTML = `
       <img src=${character.image} alt=${character.name}/>
